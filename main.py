@@ -10,7 +10,11 @@ except FileNotFoundError:
 
 for p in prompt_list:
     response = ollama.generate(model='phi3', prompt=p) #generates a response with given prompt denoted as 'p'
-    print(p,"\n",response['response'],"\n\n") #prints prompt and response
-
+    with open('responses.txt', 'a', encoding="utf8") as output:
+        #prints prompt and response to response.txt
+        output.write(p) 
+        output.write("\n")
+        output.write(response['response'])
+        output.write("\n\n")
 
 
