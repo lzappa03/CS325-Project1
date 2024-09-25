@@ -1,7 +1,7 @@
 # CS325-Project1
 
-Written by Lorenzzi Zappa for class Software Engineering (CS325)
-September 25, 2024
+<p>Written by Lorenzzi Zappa for class Software Engineering (CS325)<br>
+September 25, 2024</p>
 
 -----------
 
